@@ -1,0 +1,15 @@
+# Block Regeneration Plugin Configuration
+
+# Delay in seconds between regenerating each block
+block_regen_delay: 30
+
+# Map of regions and their corresponding block types to regenerate
+regen_regions:
+  region1:
+    - STONE
+    - DIRT
+  region2:
+    - GRASS
+  region3:
+    - COBBLESTONE
+    - SAND

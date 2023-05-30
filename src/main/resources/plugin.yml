@@ -1,0 +1,12 @@
+name: RegionRegen
+version: '${version}'
+main: org.opencommunity.regionregen.Main
+api-version: 1.19
+authors: [ Envel ]
+depend: [WorldGuard]
+
+commands:
+  rr:
+    description: Execute plugin commands
+    usage: /rr <command> [arguments]
+    aliases: [regen]
